@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0685C04B33BFECE6FC71D8C3 /* libPods-Cell的复用.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1D7219436D6E79E72402A06 /* libPods-Cell的复用.a */; };
+		5B81831959DCE52DF7B4042A /* libPods-Cell的复用Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29E6D23C1BAA33BDD9314BBC /* libPods-Cell的复用Tests.a */; };
 		8A1D2E551EC175FA00D6D286 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A1D2E541EC175FA00D6D286 /* main.m */; };
 		8A1D2E581EC175FA00D6D286 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A1D2E571EC175FA00D6D286 /* AppDelegate.m */; };
 		8A1D2E5B1EC175FA00D6D286 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A1D2E5A1EC175FA00D6D286 /* ViewController.m */; };
@@ -15,6 +17,56 @@
 		8A1D2E631EC175FA00D6D286 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A1D2E611EC175FA00D6D286 /* LaunchScreen.storyboard */; };
 		8A1D2E6E1EC175FA00D6D286 /* Cell___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A1D2E6D1EC175FA00D6D286 /* Cell___Tests.m */; };
 		8A1D2E791EC175FA00D6D286 /* Cell___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A1D2E781EC175FA00D6D286 /* Cell___UITests.m */; };
+		8AC16E6F1EC17FC7009A3203 /* GGSConnectDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC16E0C1EC17FC7009A3203 /* GGSConnectDetailViewController.m */; };
+		8AC16E701EC17FC7009A3203 /* GGSConnectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC16E0E1EC17FC7009A3203 /* GGSConnectViewController.m */; };
+		8AC16E711EC17FC7009A3203 /* GGSCustomerServiceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC16E101EC17FC7009A3203 /* GGSCustomerServiceCell.m */; };
+		8AC16E721EC17FC7009A3203 /* GGSGroupMemberTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC16E121EC17FC7009A3203 /* GGSGroupMemberTopView.m */; };
+		8AC16E731EC17FC7009A3203 /* GGSGroupMemberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC16E141EC17FC7009A3203 /* GGSGroupMemberViewController.m */; };
+		8AC16E741EC17FC7009A3203 /* GGSGroupNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC16E161EC17FC7009A3203 /* GGSGroupNewsViewController.m */; };
+		8AC16E751EC17FC7009A3203 /* GGSGroupProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC16E181EC17FC7009A3203 /* GGSGroupProfileViewController.m */; };
+		8AC16E761EC17FC7009A3203 /* GGSGroupSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC16E1A1EC17FC7009A3203 /* GGSGroupSettingViewController.m */; };
+		8AC16E771EC17FC7009A3203 /* GGSMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC16E1C1EC17FC7009A3203 /* GGSMessageViewController.m */; };
+		8AC16E781EC17FC7009A3203 /* GGSTestPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC16E1E1EC17FC7009A3203 /* GGSTestPageViewController.m */; };
+		8AC16E791EC17FC7009A3203 /* GGSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC16E201EC17FC7009A3203 /* GGSViewController.m */; };
+		8AC16E7A1EC17FC7009A3203 /* GGSChatJMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC16E231EC17FC7009A3203 /* GGSChatJMessage.m */; };
+		8AC16E7B1EC17FC7009A3203 /* GGSCoachConnectList.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC16E251EC17FC7009A3203 /* GGSCoachConnectList.m */; };
+		8AC16E7C1EC17FC7009A3203 /* GGSEmoticonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC16E271EC17FC7009A3203 /* GGSEmoticonItem.m */; };
+		8AC16E7D1EC17FC7009A3203 /* GGSGGSLastMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC16E291EC17FC7009A3203 /* GGSGGSLastMessage.m */; };
+		8AC16E7E1EC17FC7009A3203 /* GGSJMessageContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC16E2B1EC17FC7009A3203 /* GGSJMessageContent.m */; };
+		8AC16E7F1EC17FC7009A3203 /* GGSParticipants.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC16E2D1EC17FC7009A3203 /* GGSParticipants.m */; };
+		8AC16E801EC17FC7009A3203 /* GGSPTPusherData.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC16E2F1EC17FC7009A3203 /* GGSPTPusherData.m */; };
+		8AC16E811EC17FC7009A3203 /* GGSPTPusherManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC16E311EC17FC7009A3203 /* GGSPTPusherManager.m */; };
+		8AC16E821EC17FC7009A3203 /* GGSShowMessageAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC16E331EC17FC7009A3203 /* GGSShowMessageAdapter.m */; };
+		8AC16E831EC17FC7009A3203 /* GGSThreadSubItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC16E351EC17FC7009A3203 /* GGSThreadSubItem.m */; };
+		8AC16E841EC17FC7009A3203 /* GGSUserThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC16E371EC17FC7009A3203 /* GGSUserThread.m */; };
+		8AC16E851EC17FC7009A3203 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC16E391EC17FC7009A3203 /* Person.m */; };
+		8AC16E861EC17FC7009A3203 /* GGSBaseGroupInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC16E3C1EC17FC7009A3203 /* GGSBaseGroupInfoCell.m */; };
+		8AC16E871EC17FC7009A3203 /* GGSBaseNormalTableViewHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC16E3E1EC17FC7009A3203 /* GGSBaseNormalTableViewHeader.m */; };
+		8AC16E881EC17FC7009A3203 /* GGSChatInputTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC16E401EC17FC7009A3203 /* GGSChatInputTextView.m */; };
+		8AC16E891EC17FC7009A3203 /* GGSChatMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC16E421EC17FC7009A3203 /* GGSChatMessageCell.m */; };
+		8AC16E8A1EC17FC7009A3203 /* GGSChineseSortTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC16E441EC17FC7009A3203 /* GGSChineseSortTool.m */; };
+		8AC16E8B1EC17FC7009A3203 /* GGSChooseMessageTypeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC16E461EC17FC7009A3203 /* GGSChooseMessageTypeView.m */; };
+		8AC16E8C1EC17FC7009A3203 /* GGSConnectListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC16E481EC17FC7009A3203 /* GGSConnectListCell.m */; };
+		8AC16E8D1EC17FC7009A3203 /* GGSDesignPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC16E4A1EC17FC7009A3203 /* GGSDesignPageControl.m */; };
+		8AC16E8E1EC17FC7009A3203 /* GGSEmonticonCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC16E4C1EC17FC7009A3203 /* GGSEmonticonCollectionViewCell.m */; };
+		8AC16E8F1EC17FC7009A3203 /* GGSEmoticonFlowlayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC16E4E1EC17FC7009A3203 /* GGSEmoticonFlowlayout.m */; };
+		8AC16E901EC17FC7009A3203 /* GGSEmoticonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC16E501EC17FC7009A3203 /* GGSEmoticonView.m */; };
+		8AC16E911EC17FC7009A3203 /* GGSGroupChatMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC16E521EC17FC7009A3203 /* GGSGroupChatMessageCell.m */; };
+		8AC16E921EC17FC7009A3203 /* GGSGroupInfoDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC16E541EC17FC7009A3203 /* GGSGroupInfoDetailCell.m */; };
+		8AC16E931EC17FC7009A3203 /* GGSGroupInfoSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC16E561EC17FC7009A3203 /* GGSGroupInfoSettingCell.m */; };
+		8AC16E941EC17FC7009A3203 /* GGSGroupMemberViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC16E581EC17FC7009A3203 /* GGSGroupMemberViewCell.m */; };
+		8AC16E951EC17FC7009A3203 /* GGSGroupPartNumberCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC16E5A1EC17FC7009A3203 /* GGSGroupPartNumberCell.m */; };
+		8AC16E961EC17FC7009A3203 /* GGSGroupTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC16E5C1EC17FC7009A3203 /* GGSGroupTopView.m */; };
+		8AC16E971EC17FC7009A3203 /* GGSGroupTypeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC16E5E1EC17FC7009A3203 /* GGSGroupTypeCell.m */; };
+		8AC16E981EC17FC7009A3203 /* GGSGroupTypeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC16E601EC17FC7009A3203 /* GGSGroupTypeView.m */; };
+		8AC16E991EC17FC7009A3203 /* GGSMessageInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC16E621EC17FC7009A3203 /* GGSMessageInputView.m */; };
+		8AC16E9A1EC17FC7009A3203 /* GGSMessageToCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC16E641EC17FC7009A3203 /* GGSMessageToCell.m */; };
+		8AC16E9B1EC17FC7009A3203 /* GGSOppositeTextMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC16E661EC17FC7009A3203 /* GGSOppositeTextMessageCell.m */; };
+		8AC16E9C1EC17FC7009A3203 /* GGSOwnTextMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC16E681EC17FC7009A3203 /* GGSOwnTextMessageCell.m */; };
+		8AC16E9D1EC17FC7009A3203 /* GGSPersonalChatMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC16E6A1EC17FC7009A3203 /* GGSPersonalChatMessageCell.m */; };
+		8AC16E9E1EC17FC7009A3203 /* GGSSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC16E6C1EC17FC7009A3203 /* GGSSearchBar.m */; };
+		8AC16E9F1EC17FC7009A3203 /* GGSVoiceMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC16E6E1EC17FC7009A3203 /* GGSVoiceMessageCell.m */; };
+		DE0D2B681A49D063EEF86230 /* libPods-Cell的复用UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9009F8225B82C1ED541A2E27 /* libPods-Cell的复用UITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +87,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C6B2FB6DAD7F55CBE248E29 /* Pods-Cell的复用Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cell的复用Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cell的复用Tests/Pods-Cell的复用Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		29E6D23C1BAA33BDD9314BBC /* libPods-Cell的复用Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Cell的复用Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D9BBC242DE0E9BF3BAC8D7B /* Pods-Cell的复用UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cell的复用UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cell的复用UITests/Pods-Cell的复用UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8A1D2E501EC175FA00D6D286 /* Cell的复用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cell的复用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A1D2E541EC175FA00D6D286 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8A1D2E561EC175FA00D6D286 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +106,111 @@
 		8A1D2E741EC175FA00D6D286 /* Cell的复用UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cell的复用UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A1D2E781EC175FA00D6D286 /* Cell___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Cell___UITests.m"; sourceTree = "<group>"; };
 		8A1D2E7A1EC175FA00D6D286 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AC16E081EC17663009A3203 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		8AC16E0B1EC17FC7009A3203 /* GGSConnectDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGSConnectDetailViewController.h; sourceTree = "<group>"; };
+		8AC16E0C1EC17FC7009A3203 /* GGSConnectDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGSConnectDetailViewController.m; sourceTree = "<group>"; };
+		8AC16E0D1EC17FC7009A3203 /* GGSConnectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGSConnectViewController.h; sourceTree = "<group>"; };
+		8AC16E0E1EC17FC7009A3203 /* GGSConnectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGSConnectViewController.m; sourceTree = "<group>"; };
+		8AC16E0F1EC17FC7009A3203 /* GGSCustomerServiceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGSCustomerServiceCell.h; sourceTree = "<group>"; };
+		8AC16E101EC17FC7009A3203 /* GGSCustomerServiceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGSCustomerServiceCell.m; sourceTree = "<group>"; };
+		8AC16E111EC17FC7009A3203 /* GGSGroupMemberTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGSGroupMemberTopView.h; sourceTree = "<group>"; };
+		8AC16E121EC17FC7009A3203 /* GGSGroupMemberTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGSGroupMemberTopView.m; sourceTree = "<group>"; };
+		8AC16E131EC17FC7009A3203 /* GGSGroupMemberViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGSGroupMemberViewController.h; sourceTree = "<group>"; };
+		8AC16E141EC17FC7009A3203 /* GGSGroupMemberViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGSGroupMemberViewController.m; sourceTree = "<group>"; };
+		8AC16E151EC17FC7009A3203 /* GGSGroupNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGSGroupNewsViewController.h; sourceTree = "<group>"; };
+		8AC16E161EC17FC7009A3203 /* GGSGroupNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGSGroupNewsViewController.m; sourceTree = "<group>"; };
+		8AC16E171EC17FC7009A3203 /* GGSGroupProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGSGroupProfileViewController.h; sourceTree = "<group>"; };
+		8AC16E181EC17FC7009A3203 /* GGSGroupProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGSGroupProfileViewController.m; sourceTree = "<group>"; };
+		8AC16E191EC17FC7009A3203 /* GGSGroupSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGSGroupSettingViewController.h; sourceTree = "<group>"; };
+		8AC16E1A1EC17FC7009A3203 /* GGSGroupSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGSGroupSettingViewController.m; sourceTree = "<group>"; };
+		8AC16E1B1EC17FC7009A3203 /* GGSMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGSMessageViewController.h; sourceTree = "<group>"; };
+		8AC16E1C1EC17FC7009A3203 /* GGSMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGSMessageViewController.m; sourceTree = "<group>"; };
+		8AC16E1D1EC17FC7009A3203 /* GGSTestPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGSTestPageViewController.h; sourceTree = "<group>"; };
+		8AC16E1E1EC17FC7009A3203 /* GGSTestPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGSTestPageViewController.m; sourceTree = "<group>"; };
+		8AC16E1F1EC17FC7009A3203 /* GGSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGSViewController.h; sourceTree = "<group>"; };
+		8AC16E201EC17FC7009A3203 /* GGSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGSViewController.m; sourceTree = "<group>"; };
+		8AC16E221EC17FC7009A3203 /* GGSChatJMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGSChatJMessage.h; sourceTree = "<group>"; };
+		8AC16E231EC17FC7009A3203 /* GGSChatJMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGSChatJMessage.m; sourceTree = "<group>"; };
+		8AC16E241EC17FC7009A3203 /* GGSCoachConnectList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGSCoachConnectList.h; sourceTree = "<group>"; };
+		8AC16E251EC17FC7009A3203 /* GGSCoachConnectList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGSCoachConnectList.m; sourceTree = "<group>"; };
+		8AC16E261EC17FC7009A3203 /* GGSEmoticonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGSEmoticonItem.h; sourceTree = "<group>"; };
+		8AC16E271EC17FC7009A3203 /* GGSEmoticonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGSEmoticonItem.m; sourceTree = "<group>"; };
+		8AC16E281EC17FC7009A3203 /* GGSGGSLastMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGSGGSLastMessage.h; sourceTree = "<group>"; };
+		8AC16E291EC17FC7009A3203 /* GGSGGSLastMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGSGGSLastMessage.m; sourceTree = "<group>"; };
+		8AC16E2A1EC17FC7009A3203 /* GGSJMessageContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGSJMessageContent.h; sourceTree = "<group>"; };
+		8AC16E2B1EC17FC7009A3203 /* GGSJMessageContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGSJMessageContent.m; sourceTree = "<group>"; };
+		8AC16E2C1EC17FC7009A3203 /* GGSParticipants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGSParticipants.h; sourceTree = "<group>"; };
+		8AC16E2D1EC17FC7009A3203 /* GGSParticipants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGSParticipants.m; sourceTree = "<group>"; };
+		8AC16E2E1EC17FC7009A3203 /* GGSPTPusherData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGSPTPusherData.h; sourceTree = "<group>"; };
+		8AC16E2F1EC17FC7009A3203 /* GGSPTPusherData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGSPTPusherData.m; sourceTree = "<group>"; };
+		8AC16E301EC17FC7009A3203 /* GGSPTPusherManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGSPTPusherManager.h; sourceTree = "<group>"; };
+		8AC16E311EC17FC7009A3203 /* GGSPTPusherManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGSPTPusherManager.m; sourceTree = "<group>"; };
+		8AC16E321EC17FC7009A3203 /* GGSShowMessageAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGSShowMessageAdapter.h; sourceTree = "<group>"; };
+		8AC16E331EC17FC7009A3203 /* GGSShowMessageAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGSShowMessageAdapter.m; sourceTree = "<group>"; };
+		8AC16E341EC17FC7009A3203 /* GGSThreadSubItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGSThreadSubItem.h; sourceTree = "<group>"; };
+		8AC16E351EC17FC7009A3203 /* GGSThreadSubItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGSThreadSubItem.m; sourceTree = "<group>"; };
+		8AC16E361EC17FC7009A3203 /* GGSUserThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGSUserThread.h; sourceTree = "<group>"; };
+		8AC16E371EC17FC7009A3203 /* GGSUserThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGSUserThread.m; sourceTree = "<group>"; };
+		8AC16E381EC17FC7009A3203 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		8AC16E391EC17FC7009A3203 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		8AC16E3B1EC17FC7009A3203 /* GGSBaseGroupInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGSBaseGroupInfoCell.h; sourceTree = "<group>"; };
+		8AC16E3C1EC17FC7009A3203 /* GGSBaseGroupInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGSBaseGroupInfoCell.m; sourceTree = "<group>"; };
+		8AC16E3D1EC17FC7009A3203 /* GGSBaseNormalTableViewHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGSBaseNormalTableViewHeader.h; sourceTree = "<group>"; };
+		8AC16E3E1EC17FC7009A3203 /* GGSBaseNormalTableViewHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGSBaseNormalTableViewHeader.m; sourceTree = "<group>"; };
+		8AC16E3F1EC17FC7009A3203 /* GGSChatInputTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGSChatInputTextView.h; sourceTree = "<group>"; };
+		8AC16E401EC17FC7009A3203 /* GGSChatInputTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGSChatInputTextView.m; sourceTree = "<group>"; };
+		8AC16E411EC17FC7009A3203 /* GGSChatMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGSChatMessageCell.h; sourceTree = "<group>"; };
+		8AC16E421EC17FC7009A3203 /* GGSChatMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGSChatMessageCell.m; sourceTree = "<group>"; };
+		8AC16E431EC17FC7009A3203 /* GGSChineseSortTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGSChineseSortTool.h; sourceTree = "<group>"; };
+		8AC16E441EC17FC7009A3203 /* GGSChineseSortTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGSChineseSortTool.m; sourceTree = "<group>"; };
+		8AC16E451EC17FC7009A3203 /* GGSChooseMessageTypeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGSChooseMessageTypeView.h; sourceTree = "<group>"; };
+		8AC16E461EC17FC7009A3203 /* GGSChooseMessageTypeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGSChooseMessageTypeView.m; sourceTree = "<group>"; };
+		8AC16E471EC17FC7009A3203 /* GGSConnectListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGSConnectListCell.h; sourceTree = "<group>"; };
+		8AC16E481EC17FC7009A3203 /* GGSConnectListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGSConnectListCell.m; sourceTree = "<group>"; };
+		8AC16E491EC17FC7009A3203 /* GGSDesignPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGSDesignPageControl.h; sourceTree = "<group>"; };
+		8AC16E4A1EC17FC7009A3203 /* GGSDesignPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGSDesignPageControl.m; sourceTree = "<group>"; };
+		8AC16E4B1EC17FC7009A3203 /* GGSEmonticonCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGSEmonticonCollectionViewCell.h; sourceTree = "<group>"; };
+		8AC16E4C1EC17FC7009A3203 /* GGSEmonticonCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGSEmonticonCollectionViewCell.m; sourceTree = "<group>"; };
+		8AC16E4D1EC17FC7009A3203 /* GGSEmoticonFlowlayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGSEmoticonFlowlayout.h; sourceTree = "<group>"; };
+		8AC16E4E1EC17FC7009A3203 /* GGSEmoticonFlowlayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGSEmoticonFlowlayout.m; sourceTree = "<group>"; };
+		8AC16E4F1EC17FC7009A3203 /* GGSEmoticonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGSEmoticonView.h; sourceTree = "<group>"; };
+		8AC16E501EC17FC7009A3203 /* GGSEmoticonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGSEmoticonView.m; sourceTree = "<group>"; };
+		8AC16E511EC17FC7009A3203 /* GGSGroupChatMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGSGroupChatMessageCell.h; sourceTree = "<group>"; };
+		8AC16E521EC17FC7009A3203 /* GGSGroupChatMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGSGroupChatMessageCell.m; sourceTree = "<group>"; };
+		8AC16E531EC17FC7009A3203 /* GGSGroupInfoDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGSGroupInfoDetailCell.h; sourceTree = "<group>"; };
+		8AC16E541EC17FC7009A3203 /* GGSGroupInfoDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGSGroupInfoDetailCell.m; sourceTree = "<group>"; };
+		8AC16E551EC17FC7009A3203 /* GGSGroupInfoSettingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGSGroupInfoSettingCell.h; sourceTree = "<group>"; };
+		8AC16E561EC17FC7009A3203 /* GGSGroupInfoSettingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGSGroupInfoSettingCell.m; sourceTree = "<group>"; };
+		8AC16E571EC17FC7009A3203 /* GGSGroupMemberViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGSGroupMemberViewCell.h; sourceTree = "<group>"; };
+		8AC16E581EC17FC7009A3203 /* GGSGroupMemberViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGSGroupMemberViewCell.m; sourceTree = "<group>"; };
+		8AC16E591EC17FC7009A3203 /* GGSGroupPartNumberCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGSGroupPartNumberCell.h; sourceTree = "<group>"; };
+		8AC16E5A1EC17FC7009A3203 /* GGSGroupPartNumberCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGSGroupPartNumberCell.m; sourceTree = "<group>"; };
+		8AC16E5B1EC17FC7009A3203 /* GGSGroupTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGSGroupTopView.h; sourceTree = "<group>"; };
+		8AC16E5C1EC17FC7009A3203 /* GGSGroupTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGSGroupTopView.m; sourceTree = "<group>"; };
+		8AC16E5D1EC17FC7009A3203 /* GGSGroupTypeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGSGroupTypeCell.h; sourceTree = "<group>"; };
+		8AC16E5E1EC17FC7009A3203 /* GGSGroupTypeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGSGroupTypeCell.m; sourceTree = "<group>"; };
+		8AC16E5F1EC17FC7009A3203 /* GGSGroupTypeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGSGroupTypeView.h; sourceTree = "<group>"; };
+		8AC16E601EC17FC7009A3203 /* GGSGroupTypeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGSGroupTypeView.m; sourceTree = "<group>"; };
+		8AC16E611EC17FC7009A3203 /* GGSMessageInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGSMessageInputView.h; sourceTree = "<group>"; };
+		8AC16E621EC17FC7009A3203 /* GGSMessageInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGSMessageInputView.m; sourceTree = "<group>"; };
+		8AC16E631EC17FC7009A3203 /* GGSMessageToCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGSMessageToCell.h; sourceTree = "<group>"; };
+		8AC16E641EC17FC7009A3203 /* GGSMessageToCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGSMessageToCell.m; sourceTree = "<group>"; };
+		8AC16E651EC17FC7009A3203 /* GGSOppositeTextMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGSOppositeTextMessageCell.h; sourceTree = "<group>"; };
+		8AC16E661EC17FC7009A3203 /* GGSOppositeTextMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGSOppositeTextMessageCell.m; sourceTree = "<group>"; };
+		8AC16E671EC17FC7009A3203 /* GGSOwnTextMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGSOwnTextMessageCell.h; sourceTree = "<group>"; };
+		8AC16E681EC17FC7009A3203 /* GGSOwnTextMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGSOwnTextMessageCell.m; sourceTree = "<group>"; };
+		8AC16E691EC17FC7009A3203 /* GGSPersonalChatMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGSPersonalChatMessageCell.h; sourceTree = "<group>"; };
+		8AC16E6A1EC17FC7009A3203 /* GGSPersonalChatMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGSPersonalChatMessageCell.m; sourceTree = "<group>"; };
+		8AC16E6B1EC17FC7009A3203 /* GGSSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGSSearchBar.h; sourceTree = "<group>"; };
+		8AC16E6C1EC17FC7009A3203 /* GGSSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGSSearchBar.m; sourceTree = "<group>"; };
+		8AC16E6D1EC17FC7009A3203 /* GGSVoiceMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGSVoiceMessageCell.h; sourceTree = "<group>"; };
+		8AC16E6E1EC17FC7009A3203 /* GGSVoiceMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGSVoiceMessageCell.m; sourceTree = "<group>"; };
+		9009F8225B82C1ED541A2E27 /* libPods-Cell的复用UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Cell的复用UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E2BD3AEC5B79CD881A71694 /* Pods-Cell的复用.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cell的复用.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cell的复用/Pods-Cell的复用.release.xcconfig"; sourceTree = "<group>"; };
+		A84FDE40095346818DC206AA /* Pods-Cell的复用.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cell的复用.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cell的复用/Pods-Cell的复用.debug.xcconfig"; sourceTree = "<group>"; };
+		C38FA2C9CE56B520B18EFFAB /* Pods-Cell的复用UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cell的复用UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cell的复用UITests/Pods-Cell的复用UITests.release.xcconfig"; sourceTree = "<group>"; };
+		D1D7219436D6E79E72402A06 /* libPods-Cell的复用.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Cell的复用.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4C8B60D639269821CBD0FE0 /* Pods-Cell的复用Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cell的复用Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cell的复用Tests/Pods-Cell的复用Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +218,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0685C04B33BFECE6FC71D8C3 /* libPods-Cell的复用.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +226,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B81831959DCE52DF7B4042A /* libPods-Cell的复用Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +234,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE0D2B681A49D063EEF86230 /* libPods-Cell的复用UITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2897EE137860B53DB71F34E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A84FDE40095346818DC206AA /* Pods-Cell的复用.debug.xcconfig */,
+				9E2BD3AEC5B79CD881A71694 /* Pods-Cell的复用.release.xcconfig */,
+				1C6B2FB6DAD7F55CBE248E29 /* Pods-Cell的复用Tests.debug.xcconfig */,
+				F4C8B60D639269821CBD0FE0 /* Pods-Cell的复用Tests.release.xcconfig */,
+				6D9BBC242DE0E9BF3BAC8D7B /* Pods-Cell的复用UITests.debug.xcconfig */,
+				C38FA2C9CE56B520B18EFFAB /* Pods-Cell的复用UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		83B7848448DAD5454F45C2E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1D7219436D6E79E72402A06 /* libPods-Cell的复用.a */,
+				29E6D23C1BAA33BDD9314BBC /* libPods-Cell的复用Tests.a */,
+				9009F8225B82C1ED541A2E27 /* libPods-Cell的复用UITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8A1D2E471EC175FA00D6D286 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +271,8 @@
 				8A1D2E6C1EC175FA00D6D286 /* Cell的复用Tests */,
 				8A1D2E771EC175FA00D6D286 /* Cell的复用UITests */,
 				8A1D2E511EC175FA00D6D286 /* Products */,
+				2897EE137860B53DB71F34E3 /* Pods */,
+				83B7848448DAD5454F45C2E7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +289,12 @@
 		8A1D2E521EC175FA00D6D286 /* Cell的复用 */ = {
 			isa = PBXGroup;
 			children = (
+				8AC16E091EC17FC7009A3203 /* Message */,
 				8A1D2E561EC175FA00D6D286 /* AppDelegate.h */,
 				8A1D2E571EC175FA00D6D286 /* AppDelegate.m */,
 				8A1D2E591EC175FA00D6D286 /* ViewController.h */,
 				8A1D2E5A1EC175FA00D6D286 /* ViewController.m */,
+				8AC16E081EC17663009A3203 /* PrefixHeader.pch */,
 				8A1D2E5C1EC175FA00D6D286 /* Main.storyboard */,
 				8A1D2E5F1EC175FA00D6D286 /* Assets.xcassets */,
 				8A1D2E611EC175FA00D6D286 /* LaunchScreen.storyboard */,
@@ -140,6 +330,135 @@
 			path = "Cell的复用UITests";
 			sourceTree = "<group>";
 		};
+		8AC16E091EC17FC7009A3203 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				8AC16E0A1EC17FC7009A3203 /* Controller */,
+				8AC16E211EC17FC7009A3203 /* Model */,
+				8AC16E3A1EC17FC7009A3203 /* View */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		8AC16E0A1EC17FC7009A3203 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8AC16E0B1EC17FC7009A3203 /* GGSConnectDetailViewController.h */,
+				8AC16E0C1EC17FC7009A3203 /* GGSConnectDetailViewController.m */,
+				8AC16E0D1EC17FC7009A3203 /* GGSConnectViewController.h */,
+				8AC16E0E1EC17FC7009A3203 /* GGSConnectViewController.m */,
+				8AC16E0F1EC17FC7009A3203 /* GGSCustomerServiceCell.h */,
+				8AC16E101EC17FC7009A3203 /* GGSCustomerServiceCell.m */,
+				8AC16E111EC17FC7009A3203 /* GGSGroupMemberTopView.h */,
+				8AC16E121EC17FC7009A3203 /* GGSGroupMemberTopView.m */,
+				8AC16E131EC17FC7009A3203 /* GGSGroupMemberViewController.h */,
+				8AC16E141EC17FC7009A3203 /* GGSGroupMemberViewController.m */,
+				8AC16E151EC17FC7009A3203 /* GGSGroupNewsViewController.h */,
+				8AC16E161EC17FC7009A3203 /* GGSGroupNewsViewController.m */,
+				8AC16E171EC17FC7009A3203 /* GGSGroupProfileViewController.h */,
+				8AC16E181EC17FC7009A3203 /* GGSGroupProfileViewController.m */,
+				8AC16E191EC17FC7009A3203 /* GGSGroupSettingViewController.h */,
+				8AC16E1A1EC17FC7009A3203 /* GGSGroupSettingViewController.m */,
+				8AC16E1B1EC17FC7009A3203 /* GGSMessageViewController.h */,
+				8AC16E1C1EC17FC7009A3203 /* GGSMessageViewController.m */,
+				8AC16E1D1EC17FC7009A3203 /* GGSTestPageViewController.h */,
+				8AC16E1E1EC17FC7009A3203 /* GGSTestPageViewController.m */,
+				8AC16E1F1EC17FC7009A3203 /* GGSViewController.h */,
+				8AC16E201EC17FC7009A3203 /* GGSViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8AC16E211EC17FC7009A3203 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8AC16E221EC17FC7009A3203 /* GGSChatJMessage.h */,
+				8AC16E231EC17FC7009A3203 /* GGSChatJMessage.m */,
+				8AC16E241EC17FC7009A3203 /* GGSCoachConnectList.h */,
+				8AC16E251EC17FC7009A3203 /* GGSCoachConnectList.m */,
+				8AC16E261EC17FC7009A3203 /* GGSEmoticonItem.h */,
+				8AC16E271EC17FC7009A3203 /* GGSEmoticonItem.m */,
+				8AC16E281EC17FC7009A3203 /* GGSGGSLastMessage.h */,
+				8AC16E291EC17FC7009A3203 /* GGSGGSLastMessage.m */,
+				8AC16E2A1EC17FC7009A3203 /* GGSJMessageContent.h */,
+				8AC16E2B1EC17FC7009A3203 /* GGSJMessageContent.m */,
+				8AC16E2C1EC17FC7009A3203 /* GGSParticipants.h */,
+				8AC16E2D1EC17FC7009A3203 /* GGSParticipants.m */,
+				8AC16E2E1EC17FC7009A3203 /* GGSPTPusherData.h */,
+				8AC16E2F1EC17FC7009A3203 /* GGSPTPusherData.m */,
+				8AC16E301EC17FC7009A3203 /* GGSPTPusherManager.h */,
+				8AC16E311EC17FC7009A3203 /* GGSPTPusherManager.m */,
+				8AC16E321EC17FC7009A3203 /* GGSShowMessageAdapter.h */,
+				8AC16E331EC17FC7009A3203 /* GGSShowMessageAdapter.m */,
+				8AC16E341EC17FC7009A3203 /* GGSThreadSubItem.h */,
+				8AC16E351EC17FC7009A3203 /* GGSThreadSubItem.m */,
+				8AC16E361EC17FC7009A3203 /* GGSUserThread.h */,
+				8AC16E371EC17FC7009A3203 /* GGSUserThread.m */,
+				8AC16E381EC17FC7009A3203 /* Person.h */,
+				8AC16E391EC17FC7009A3203 /* Person.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8AC16E3A1EC17FC7009A3203 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8AC16E3B1EC17FC7009A3203 /* GGSBaseGroupInfoCell.h */,
+				8AC16E3C1EC17FC7009A3203 /* GGSBaseGroupInfoCell.m */,
+				8AC16E3D1EC17FC7009A3203 /* GGSBaseNormalTableViewHeader.h */,
+				8AC16E3E1EC17FC7009A3203 /* GGSBaseNormalTableViewHeader.m */,
+				8AC16E3F1EC17FC7009A3203 /* GGSChatInputTextView.h */,
+				8AC16E401EC17FC7009A3203 /* GGSChatInputTextView.m */,
+				8AC16E411EC17FC7009A3203 /* GGSChatMessageCell.h */,
+				8AC16E421EC17FC7009A3203 /* GGSChatMessageCell.m */,
+				8AC16E431EC17FC7009A3203 /* GGSChineseSortTool.h */,
+				8AC16E441EC17FC7009A3203 /* GGSChineseSortTool.m */,
+				8AC16E451EC17FC7009A3203 /* GGSChooseMessageTypeView.h */,
+				8AC16E461EC17FC7009A3203 /* GGSChooseMessageTypeView.m */,
+				8AC16E471EC17FC7009A3203 /* GGSConnectListCell.h */,
+				8AC16E481EC17FC7009A3203 /* GGSConnectListCell.m */,
+				8AC16E491EC17FC7009A3203 /* GGSDesignPageControl.h */,
+				8AC16E4A1EC17FC7009A3203 /* GGSDesignPageControl.m */,
+				8AC16E4B1EC17FC7009A3203 /* GGSEmonticonCollectionViewCell.h */,
+				8AC16E4C1EC17FC7009A3203 /* GGSEmonticonCollectionViewCell.m */,
+				8AC16E4D1EC17FC7009A3203 /* GGSEmoticonFlowlayout.h */,
+				8AC16E4E1EC17FC7009A3203 /* GGSEmoticonFlowlayout.m */,
+				8AC16E4F1EC17FC7009A3203 /* GGSEmoticonView.h */,
+				8AC16E501EC17FC7009A3203 /* GGSEmoticonView.m */,
+				8AC16E511EC17FC7009A3203 /* GGSGroupChatMessageCell.h */,
+				8AC16E521EC17FC7009A3203 /* GGSGroupChatMessageCell.m */,
+				8AC16E531EC17FC7009A3203 /* GGSGroupInfoDetailCell.h */,
+				8AC16E541EC17FC7009A3203 /* GGSGroupInfoDetailCell.m */,
+				8AC16E551EC17FC7009A3203 /* GGSGroupInfoSettingCell.h */,
+				8AC16E561EC17FC7009A3203 /* GGSGroupInfoSettingCell.m */,
+				8AC16E571EC17FC7009A3203 /* GGSGroupMemberViewCell.h */,
+				8AC16E581EC17FC7009A3203 /* GGSGroupMemberViewCell.m */,
+				8AC16E591EC17FC7009A3203 /* GGSGroupPartNumberCell.h */,
+				8AC16E5A1EC17FC7009A3203 /* GGSGroupPartNumberCell.m */,
+				8AC16E5B1EC17FC7009A3203 /* GGSGroupTopView.h */,
+				8AC16E5C1EC17FC7009A3203 /* GGSGroupTopView.m */,
+				8AC16E5D1EC17FC7009A3203 /* GGSGroupTypeCell.h */,
+				8AC16E5E1EC17FC7009A3203 /* GGSGroupTypeCell.m */,
+				8AC16E5F1EC17FC7009A3203 /* GGSGroupTypeView.h */,
+				8AC16E601EC17FC7009A3203 /* GGSGroupTypeView.m */,
+				8AC16E611EC17FC7009A3203 /* GGSMessageInputView.h */,
+				8AC16E621EC17FC7009A3203 /* GGSMessageInputView.m */,
+				8AC16E631EC17FC7009A3203 /* GGSMessageToCell.h */,
+				8AC16E641EC17FC7009A3203 /* GGSMessageToCell.m */,
+				8AC16E651EC17FC7009A3203 /* GGSOppositeTextMessageCell.h */,
+				8AC16E661EC17FC7009A3203 /* GGSOppositeTextMessageCell.m */,
+				8AC16E671EC17FC7009A3203 /* GGSOwnTextMessageCell.h */,
+				8AC16E681EC17FC7009A3203 /* GGSOwnTextMessageCell.m */,
+				8AC16E691EC17FC7009A3203 /* GGSPersonalChatMessageCell.h */,
+				8AC16E6A1EC17FC7009A3203 /* GGSPersonalChatMessageCell.m */,
+				8AC16E6B1EC17FC7009A3203 /* GGSSearchBar.h */,
+				8AC16E6C1EC17FC7009A3203 /* GGSSearchBar.m */,
+				8AC16E6D1EC17FC7009A3203 /* GGSVoiceMessageCell.h */,
+				8AC16E6E1EC17FC7009A3203 /* GGSVoiceMessageCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +466,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8A1D2E7D1EC175FA00D6D286 /* Build configuration list for PBXNativeTarget "Cell的复用" */;
 			buildPhases = (
+				63ABD2C9330BA5CC950618C1 /* [CP] Check Pods Manifest.lock */,
 				8A1D2E4C1EC175FA00D6D286 /* Sources */,
 				8A1D2E4D1EC175FA00D6D286 /* Frameworks */,
 				8A1D2E4E1EC175FA00D6D286 /* Resources */,
+				8B278C7F24AB9855ECF01FA2 /* [CP] Embed Pods Frameworks */,
+				F27F1A93F6D4F18AC32AE009 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +486,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8A1D2E801EC175FA00D6D286 /* Build configuration list for PBXNativeTarget "Cell的复用Tests" */;
 			buildPhases = (
+				31B69D2E7BC5C4943E866DA8 /* [CP] Check Pods Manifest.lock */,
 				8A1D2E651EC175FA00D6D286 /* Sources */,
 				8A1D2E661EC175FA00D6D286 /* Frameworks */,
 				8A1D2E671EC175FA00D6D286 /* Resources */,
+				4631C071CEDD9124E38375BA /* [CP] Embed Pods Frameworks */,
+				6A0813AB4B790DC85D77A7E4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +507,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8A1D2E831EC175FA00D6D286 /* Build configuration list for PBXNativeTarget "Cell的复用UITests" */;
 			buildPhases = (
+				A7BBFBC037F97B0461CA9A51 /* [CP] Check Pods Manifest.lock */,
 				8A1D2E701EC175FA00D6D286 /* Sources */,
 				8A1D2E711EC175FA00D6D286 /* Frameworks */,
 				8A1D2E721EC175FA00D6D286 /* Resources */,
+				6287B88BE7B060BE56952728 /* [CP] Embed Pods Frameworks */,
+				ABEFF905B8561DA2DFC5673D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,13 +596,200 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		31B69D2E7BC5C4943E866DA8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4631C071CEDD9124E38375BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cell的复用Tests/Pods-Cell的复用Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6287B88BE7B060BE56952728 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cell的复用UITests/Pods-Cell的复用UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63ABD2C9330BA5CC950618C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6A0813AB4B790DC85D77A7E4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cell的复用Tests/Pods-Cell的复用Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B278C7F24AB9855ECF01FA2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cell的复用/Pods-Cell的复用-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7BBFBC037F97B0461CA9A51 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ABEFF905B8561DA2DFC5673D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cell的复用UITests/Pods-Cell的复用UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F27F1A93F6D4F18AC32AE009 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cell的复用/Pods-Cell的复用-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8A1D2E4C1EC175FA00D6D286 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AC16E721EC17FC7009A3203 /* GGSGroupMemberTopView.m in Sources */,
+				8AC16E7D1EC17FC7009A3203 /* GGSGGSLastMessage.m in Sources */,
+				8AC16E871EC17FC7009A3203 /* GGSBaseNormalTableViewHeader.m in Sources */,
+				8AC16E841EC17FC7009A3203 /* GGSUserThread.m in Sources */,
+				8AC16E9F1EC17FC7009A3203 /* GGSVoiceMessageCell.m in Sources */,
+				8AC16E7A1EC17FC7009A3203 /* GGSChatJMessage.m in Sources */,
+				8AC16E9B1EC17FC7009A3203 /* GGSOppositeTextMessageCell.m in Sources */,
+				8AC16E941EC17FC7009A3203 /* GGSGroupMemberViewCell.m in Sources */,
+				8AC16E6F1EC17FC7009A3203 /* GGSConnectDetailViewController.m in Sources */,
+				8AC16E8C1EC17FC7009A3203 /* GGSConnectListCell.m in Sources */,
+				8AC16E9C1EC17FC7009A3203 /* GGSOwnTextMessageCell.m in Sources */,
+				8AC16E771EC17FC7009A3203 /* GGSMessageViewController.m in Sources */,
+				8AC16E711EC17FC7009A3203 /* GGSCustomerServiceCell.m in Sources */,
+				8AC16E7B1EC17FC7009A3203 /* GGSCoachConnectList.m in Sources */,
+				8AC16E831EC17FC7009A3203 /* GGSThreadSubItem.m in Sources */,
+				8AC16E791EC17FC7009A3203 /* GGSViewController.m in Sources */,
+				8AC16E951EC17FC7009A3203 /* GGSGroupPartNumberCell.m in Sources */,
+				8AC16E931EC17FC7009A3203 /* GGSGroupInfoSettingCell.m in Sources */,
+				8AC16E701EC17FC7009A3203 /* GGSConnectViewController.m in Sources */,
 				8A1D2E5B1EC175FA00D6D286 /* ViewController.m in Sources */,
+				8AC16E891EC17FC7009A3203 /* GGSChatMessageCell.m in Sources */,
 				8A1D2E581EC175FA00D6D286 /* AppDelegate.m in Sources */,
+				8AC16E9D1EC17FC7009A3203 /* GGSPersonalChatMessageCell.m in Sources */,
+				8AC16E801EC17FC7009A3203 /* GGSPTPusherData.m in Sources */,
+				8AC16E9E1EC17FC7009A3203 /* GGSSearchBar.m in Sources */,
+				8AC16E811EC17FC7009A3203 /* GGSPTPusherManager.m in Sources */,
+				8AC16E861EC17FC7009A3203 /* GGSBaseGroupInfoCell.m in Sources */,
+				8AC16E761EC17FC7009A3203 /* GGSGroupSettingViewController.m in Sources */,
+				8AC16E7C1EC17FC7009A3203 /* GGSEmoticonItem.m in Sources */,
+				8AC16E8A1EC17FC7009A3203 /* GGSChineseSortTool.m in Sources */,
+				8AC16E781EC17FC7009A3203 /* GGSTestPageViewController.m in Sources */,
+				8AC16E8F1EC17FC7009A3203 /* GGSEmoticonFlowlayout.m in Sources */,
+				8AC16E991EC17FC7009A3203 /* GGSMessageInputView.m in Sources */,
+				8AC16E961EC17FC7009A3203 /* GGSGroupTopView.m in Sources */,
+				8AC16E731EC17FC7009A3203 /* GGSGroupMemberViewController.m in Sources */,
+				8AC16E921EC17FC7009A3203 /* GGSGroupInfoDetailCell.m in Sources */,
+				8AC16E821EC17FC7009A3203 /* GGSShowMessageAdapter.m in Sources */,
+				8AC16E901EC17FC7009A3203 /* GGSEmoticonView.m in Sources */,
+				8AC16E7F1EC17FC7009A3203 /* GGSParticipants.m in Sources */,
+				8AC16E8E1EC17FC7009A3203 /* GGSEmonticonCollectionViewCell.m in Sources */,
+				8AC16E981EC17FC7009A3203 /* GGSGroupTypeView.m in Sources */,
+				8AC16E8D1EC17FC7009A3203 /* GGSDesignPageControl.m in Sources */,
+				8AC16E8B1EC17FC7009A3203 /* GGSChooseMessageTypeView.m in Sources */,
+				8AC16E7E1EC17FC7009A3203 /* GGSJMessageContent.m in Sources */,
+				8AC16E971EC17FC7009A3203 /* GGSGroupTypeCell.m in Sources */,
+				8AC16E851EC17FC7009A3203 /* Person.m in Sources */,
+				8AC16E911EC17FC7009A3203 /* GGSGroupChatMessageCell.m in Sources */,
+				8AC16E741EC17FC7009A3203 /* GGSGroupNewsViewController.m in Sources */,
+				8AC16E9A1EC17FC7009A3203 /* GGSMessageToCell.m in Sources */,
+				8AC16E751EC17FC7009A3203 /* GGSGroupProfileViewController.m in Sources */,
+				8AC16E881EC17FC7009A3203 /* GGSChatInputTextView.m in Sources */,
 				8A1D2E551EC175FA00D6D286 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,8 +939,10 @@
 		};
 		8A1D2E7E1EC175FA00D6D286 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A84FDE40095346818DC206AA /* Pods-Cell的复用.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Cell的复用/PrefixHeader.pch";
 				INFOPLIST_FILE = "Cell的复用/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.apple.Cell---";
@@ -435,8 +952,10 @@
 		};
 		8A1D2E7F1EC175FA00D6D286 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E2BD3AEC5B79CD881A71694 /* Pods-Cell的复用.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Cell的复用/PrefixHeader.pch";
 				INFOPLIST_FILE = "Cell的复用/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.apple.Cell---";
@@ -446,6 +965,7 @@
 		};
 		8A1D2E811EC175FA00D6D286 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C6B2FB6DAD7F55CBE248E29 /* Pods-Cell的复用Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Cell的复用Tests/Info.plist";
@@ -458,6 +978,7 @@
 		};
 		8A1D2E821EC175FA00D6D286 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4C8B60D639269821CBD0FE0 /* Pods-Cell的复用Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Cell的复用Tests/Info.plist";
@@ -470,6 +991,7 @@
 		};
 		8A1D2E841EC175FA00D6D286 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D9BBC242DE0E9BF3BAC8D7B /* Pods-Cell的复用UITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "Cell的复用UITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -481,6 +1003,7 @@
 		};
 		8A1D2E851EC175FA00D6D286 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C38FA2C9CE56B520B18EFFAB /* Pods-Cell的复用UITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "Cell的复用UITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -509,6 +1032,7 @@
 				8A1D2E7F1EC175FA00D6D286 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8A1D2E801EC175FA00D6D286 /* Build configuration list for PBXNativeTarget "Cell的复用Tests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +1041,7 @@
 				8A1D2E821EC175FA00D6D286 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8A1D2E831EC175FA00D6D286 /* Build configuration list for PBXNativeTarget "Cell的复用UITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +1050,7 @@
 				8A1D2E851EC175FA00D6D286 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
